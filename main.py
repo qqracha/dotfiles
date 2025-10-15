@@ -8,9 +8,12 @@ copy_map = {
     "~/.config/i3/config": "i3",
     "~/.config/fish/config.fish": "fish",
     "~/.config/rofi/ayaka.rasi": "rofi",
-    "~/anime.txt": "ascii", 
     "~/Documents/usefull/hints.txt": "hints",
-    "~/Documents/usefull/nnn.txt": "hints"
+    "~/Documents/usefull/nnn.txt": "hints",
+    "~/anime.txt": "ascii", 
+    "~/cinema.txt": "ascii",
+    "~/cooking.txt": "ascii",
+    "~/nazuna.txt": "ascii",
 }
 
 def copy_item(src: str, relative_dest: str):
