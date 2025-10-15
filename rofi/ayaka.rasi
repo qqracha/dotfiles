@@ -1,0 +1,41 @@
+/* ayaka.rasi — Grubbox Material Dark theme for Rofi */
+
+* {
+    window-background: #282A36FF;   /* фон окна */
+    window-border: #44475aFF;       /* рамка окна */
+    border-width: 1px;
+    window-radius: 8px;
+
+    text-color: #f8f8f2FF;          /* обычный текст */
+    background-color: #282A36;      /* фон элементов */
+    selection-background: #6272a4;  /* выделенный элемент фон */
+    selection-foreground: #ffffff;  /* выделенный элемент текст */
+    urgent-color: #ff5555;          /* срочные/ошибки */
+    active-background: #44475a;     /* фон активного элемента */
+    active-foreground: #f8f8f2;     /* текст активного элемента */
+
+    alternate-background: #373B41;  /* фон нечётной строки */
+    alternate-foreground: #707880;  /* текст нечётной строки */
+
+    separatorcolor: #6272a4;        /* цвет разделителя */
+    highlight: bold;
+}
+
+/* styling for list */
+listview {
+    lines: 12;
+    fixed-height: true;
+    row-height: 30px;
+    spacing: 2px;
+}
+
+window {
+    width: 400px;
+    padding: 8px;
+}
+
+entry {
+    margin: 4px;
+    border-radius: 4px;
+}
+

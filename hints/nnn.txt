@@ -1,0 +1,22 @@
+nnn keys:
+
+> q - quit
+> o - open with
+> enter - open file/dir
+> j/k - move down / up
+> h - go to parent directory
+> l - enter directory
+> n - create new file
+> N - create new folder
+> d - delete file/folder
+> r - rename file/folder
+> v - open file in $EDITOR
+> / - search by filename
+> g - go to top of list
+> G - go to bottom of list
+> ctrl+u / ctrl+d - scroll half page up / down
+> Y - copy file(s) path
+> p - preview file (requires preview plugin)
+> o - open file with system default (plugin)
+> s - sort files (name, size, time, etc.)
+> . - toggle hidden files

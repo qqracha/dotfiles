@@ -1,0 +1,17 @@
+Softwares / documentation:
+
+> dolphin - file manager
+> btop - console system monitor
+> code - vscode
+> pavucontrol - volume control
+> picom - visual effects for windows
+> i3 - window manager
+> rofi - application launcher
+> dmenu - minimalist application launcer (alt rofi)
+> polybar – customizable status bar
+> nitrogen – wallpaper setter
+> i3status/i3blocks - status bar module system (alt polybar)
+> feh – lightweight wallpaper (alt nitrogen)
+> kitty/alacritty/gnome - terminals
+> fish - interactive shell
+> nnn - minimalist console file manager
