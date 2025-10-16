@@ -14,6 +14,7 @@ copy_map = {
     "~/cinema.txt": "ascii",
     "~/cooking.txt": "ascii",
     "~/nazuna.txt": "ascii",
+    "~/Documents/usefull/commands.txt": "hints",
 }
 
 def copy_item(src: str, relative_dest: str):

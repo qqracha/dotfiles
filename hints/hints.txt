@@ -15,3 +15,4 @@ Softwares / documentation:
 > kitty/alacritty/gnome - terminals
 > fish - interactive shell
 > nnn - minimalist console file manager
+> brightnessctl - set up monitor brightness 

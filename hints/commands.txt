@@ -1,0 +1,3 @@
+some commands for emergency case:
+
+> systemctl --user start docker-desktop - run docker desktop

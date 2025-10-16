@@ -242,3 +242,4 @@ bindsym $mod+equal scratchpad show
 
 bindsym $mod+Shift+Return exec --no-startup-id gnome-terminal --class=scratchpad
 for_window [class="scratchpad"] move scratchpad
+exec --no-startup-id ~/natural_scroll.sh
