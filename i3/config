@@ -50,7 +50,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-set $term i3-sensible-terminal
+set $term kitty
 bindsym $mod+Return exec $term
 
 # kill focused window
@@ -86,7 +86,6 @@ bindsym $mod+Right focus right
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -207,8 +206,6 @@ bar {
 
 exec --no-startup-id xinput set-prop 12 "libinput Natural Scrolling Enabled" 1
 
-# Настройка раскладки клавиатуры
-bindsym Mod4+Shift+s exec flameshot gui
 
 for_window [class="Firefox"] floating enable
 # for_window [class="Gnome-terminal"] floating enable
@@ -240,5 +237,8 @@ bindsym $mod+minus move scratchpad
 # Показать/спрятать scratchpad
 bindsym $mod+equal scratchpad show
 
-bindsym $mod+Shift+Return exec --no-startup-id gnome-terminal --class=scratchpad
+bindsym $mod+Shift+Return exec --no-startup-id kitty --class=scratchpad
 for_window [class="scratchpad"] move scratchpad
+
+bindsym $mod+Shift+s exec --no-startup-id shutter -s
+bindsym $mod+Shift+f exec firefox
