@@ -1,27 +1,37 @@
-/* ayaka.rasi — Grubbox Material Dark theme for Rofi */
+/* ayaka_gruvbox.rasi — цвета Gruvbox Dark, как в Alacritty */
 
 * {
-    window-background: #282A36FF;   /* фон окна */
-    window-border: #44475aFF;       /* рамка окна */
+    /* Окно */
+    window-background: #282828FF;  /* фон окна — основной background Alacritty */
+    window-border: #928374FF;      /* рамка окна — bright black */
     border-width: 1px;
     window-radius: 8px;
 
-    text-color: #f8f8f2FF;          /* обычный текст */
-    background-color: #282A36;      /* фон элементов */
-    selection-background: #6272a4;  /* выделенный элемент фон */
-    selection-foreground: #ffffff;  /* выделенный элемент текст */
-    urgent-color: #ff5555;          /* срочные/ошибки */
-    active-background: #44475a;     /* фон активного элемента */
-    active-foreground: #f8f8f2;     /* текст активного элемента */
+    /* Текст */
+    text-color: #ebdbb2FF;         /* foreground Alacritty */
+    background-color: #282828;     /* background элементов — основной фон */
+    
+    /* Выделение */
+    selection-background: #458588;  /* синий normal из Alacritty */
+    selection-foreground: #ebdbb2;  /* foreground */
+    
+    /* Активный элемент */
+    active-background: #b16286;    /* magenta normal из Alacritty */
+    active-foreground: #ebdbb2;    /* foreground */
 
-    alternate-background: #373B41;  /* фон нечётной строки */
-    alternate-foreground: #707880;  /* текст нечётной строки */
+    /* Срочные / ошибки */
+    urgent-color: #cc241d;         /* red normal */
 
-    separatorcolor: #6272a4;        /* цвет разделителя */
+    /* Чередование строк */
+    alternate-background: #928374; /* bright black */
+    alternate-foreground: #ebdbb2; /* foreground */
+
+    /* Разделители и акценты */
+    separatorcolor: #d79921;       /* yellow normal */
     highlight: bold;
 }
 
-/* styling for list */
+/* Список элементов */
 listview {
     lines: 12;
     fixed-height: true;
@@ -29,13 +39,14 @@ listview {
     spacing: 2px;
 }
 
+/* Окно */
 window {
     width: 400px;
     padding: 8px;
 }
 
+/* Поле ввода */
 entry {
     margin: 4px;
     border-radius: 4px;
 }
-
