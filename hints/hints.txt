@@ -16,3 +16,4 @@ Softwares / documentation:
 > fish - interactive shell
 > nnn - minimalist console file manager
 > brightnessctl - set up monitor brightness 
+> glances - alt btop, looks nice + battery control
